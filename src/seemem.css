@@ -58,3 +58,46 @@
 .member-list ul li:last-child {
     margin-bottom: 20px; /* Extra space for the last item */
 }
+
+@media screen and (max-width: 768px) {
+    .see-member {
+        width: 100%; /* Full width for smaller screens */
+        height: auto;
+        border: none;
+        overflow: visible; /* Allow scrolling */
+    }
+
+    .topbar2 {
+        height: 45px;
+        font-size: 15px;
+    }
+
+    .member-list {
+        padding: 5px;
+    }
+
+    .member-list ul {
+        width: 100%;
+        max-height: 60vh; /* Adjusted height for better visibility */
+        padding: 5px;
+        overflow-y: auto;
+        margin-bottom: 15px; /* Prevents last item cutoff */
+    }
+
+    .member-list ul li {
+        width: 90%; /* Make list items fit better */
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .member-list ul li button {
+        font-size: 13px;
+        padding: 5px 10px;
+        border-radius: 4px;
+    }
+
+    /* Ensure last item is fully visible */
+    .member-list ul li:last-child {
+        margin-bottom: 25px;
+    }
+}

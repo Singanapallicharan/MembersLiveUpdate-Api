@@ -50,3 +50,39 @@
     border: 1px solid black;
     padding: 5px 15px;
 }
+
+@media (max-width: 600px) {
+    .add-member {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .topbar {
+        font-size: 15px;
+        height: 40px;
+    }
+
+    .addform {
+        padding: 10px;
+    }
+
+    .addform form {
+        width: 100%;
+    }
+
+    .addform form label {
+        font-size: 16px;
+    }
+
+    .addform form input {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .addform form button {
+        width: 100%;
+        font-size: 12px;
+        padding: 8px;
+    }
+}

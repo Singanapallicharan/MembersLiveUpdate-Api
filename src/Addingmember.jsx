@@ -36,7 +36,7 @@ const Addingmember = () => {
 
   return (
     <div className="add-member">
-      <div className="topbar"><center>Add the Member</center></div>
+      <div className="topbar"><center>Ikkada Add chesko!!</center></div>
       <div className="addform">
         <form onSubmit={submitHandler}>
           <label>Name</label>

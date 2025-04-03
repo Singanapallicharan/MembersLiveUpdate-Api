@@ -45,7 +45,7 @@ const Seemember = () => {
 
   return (
     <div className="see-member">
-      <div className="topbar2"><center>See the Member</center></div>
+      <div className="topbar2"><center>Ikkada chusko!!</center></div>
       <div className='member-list'>
         <center><strong>Member List</strong></center>
         {members.length > 0 ? (
