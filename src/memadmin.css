@@ -1,0 +1,16 @@
+.adminpage{
+    display: flex;
+    flex-direction: column;
+}
+.navigation{
+    background: linear-gradient(135deg, black,white,black);
+    align-items: center;
+}
+.navigation p{
+    font-size: 30px;
+    font-weight: 700;
+}
+.main{
+    display: flex;
+    width: 100%;
+}

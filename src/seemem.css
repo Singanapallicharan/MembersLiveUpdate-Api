@@ -1,0 +1,60 @@
+.see-member {
+    height: 100vh;
+    width: 50%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Prevents content from overflowing */
+}
+
+.topbar2 {
+    background-color: red;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.member-list {
+    flex: 1; /* Takes up remaining space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden; /* Prevents content from overflowing */
+    padding: 10px;
+    
+}
+
+.member-list ul {
+    list-style: none;
+    width: 90%;
+    max-height: calc(100vh - 60px - 50px); /* 60px for padding & spacing, 50px for topbar */
+    overflow-y: auto; /* Enables vertical scrolling */
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 10px; /* Prevents it from getting cut off */
+}
+
+.member-list ul li {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f9f9f9;
+    width: 70%;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.member-list ul li button{
+    background-color: rgb(240, 63, 63);
+    border: 1px solid black;
+}
+
+/* Ensure last item is visible */
+.member-list ul li:last-child {
+    margin-bottom: 20px; /* Extra space for the last item */
+}

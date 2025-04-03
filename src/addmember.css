@@ -1,0 +1,52 @@
+.add-member{
+    height: 100vh;
+    width: 50%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+
+}
+.topbar{
+    background-color: green;
+    width: 100%;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.addform{
+    padding:20px 15px;
+}
+
+.addform form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.addform form label{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+.addform form input{
+    border-radius: 5px;
+    padding: 5px;
+    outline: None;
+    border: 1px solid black;
+    font-size: 13px;
+    margin-bottom: 8px;
+    width: 150px;
+}
+.addform form button{
+    margin-top: 10px;
+    background-color: green;
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    border: 1px solid black;
+    padding: 5px 15px;
+}
